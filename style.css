@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap");
+body {
+  background-color: #000;
+}
+
+#root {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.todolist_cotainer {
+  width: 50%;
+  height: 80vh;
+  overflow-y: auto;
+  color: #fff;
+  background-color: #666;
+  font-family: "Odibee Sans", cursive;
+  text-align: center;
+}
+
+.todolist_cotainer h1 {
+  font-size: 5rem;
+}
+
+.todolist_cotainer h2 {
+  font-size: 3rem;
+  margin: 2rem;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.todolist_cotainer_inputForm {
+  height: 3rem;
+  margin: 0 0 3rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.todolist_cotainer_inputForm input {
+  padding: 0.5rem;
+  width: 60%;
+  background-color: transparent;
+  border: 1px solid #4d4d4d;
+}
+
+.todolist_cotainer_inputForm input:hover, .todolist_cotainer_inputForm input:active, .todolist_cotainer_inputForm input:focus {
+  color: white;
+  background-color: #4d4d4d;
+  border: 1px solid white;
+}
+
+.todolist_cotainer_inputForm input::-webkit-input-placeholder {
+  color: #e6e6e6;
+}
+
+.todolist_cotainer_inputForm input:-ms-input-placeholder {
+  color: #e6e6e6;
+}
+
+.todolist_cotainer_inputForm input::-ms-input-placeholder {
+  color: #e6e6e6;
+}
+
+.todolist_cotainer_inputForm input::placeholder {
+  color: #e6e6e6;
+}
+
+.todolist_cotainer_inputForm button {
+  font-size: 1.5rem;
+  color: white;
+  width: 20%;
+  background-color: transparent;
+  border: 1px solid #4d4d4d;
+}
+
+.todolist_cotainer_inputForm button:hover, .todolist_cotainer_inputForm button:active, .todolist_cotainer_inputForm button:focus {
+  color: white;
+  background-color: #4d4d4d;
+  border: 1px solid white;
+}
+
+.todolist_cotainer_todoEntry {
+  margin-bottom: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 3rem;
+}
+
+.todolist_cotainer_todoEntry_content {
+  display: inline-block;
+  width: 60%;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  background-color: gray;
+  border: 1px solid #4d4d4d;
+}
+
+.todolist_cotainer_todoEntry_buttonContainer {
+  width: 10%;
+}
+
+.todolist_cotainer_todoEntry_buttonContainer_button {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: transparent;
+  border: 1px solid #4d4d4d;
+}
+
+.todolist_cotainer_todoEntry_buttonContainer_button:hover, .todolist_cotainer_todoEntry_buttonContainer_button:active, .todolist_cotainer_todoEntry_buttonContainer_button:focus {
+  background-color: #4d4d4d;
+  border: 1px solid white;
+}
+
+.todolist_cotainer_todoEntry_buttonContainer_button_icon {
+  height: 80%;
+  width: auto;
+}
+
+.todolist_cotainer_doneEntry {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.todolist_cotainer_doneEntry_content {
+  display: inline-block;
+  width: 70%;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  background-color: gray;
+  border: 1px solid #4d4d4d;
+}
+
+.deleteButton:hover, .deleteButton:active, .deleteButton:focus {
+  color: red;
+}
+
+.doneButton:hover, .doneButton:active, .doneButton:focus {
+  color: green;
+}
+/*# sourceMappingURL=style.css.map */
